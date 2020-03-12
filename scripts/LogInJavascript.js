@@ -23,7 +23,7 @@ function getInfo() {
         if (username == accounts[i].username && password == accounts[i].password) {
             document.getElementById("valid").style.opacity = '0%';
 
-            window.location.href = "../html/HomePage.html";
+            window.location.href = "html/HomePage.html";
 
 
             return;
