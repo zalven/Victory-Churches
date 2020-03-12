@@ -1,0 +1,260 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../pictures/homepage.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    ul {
+        float: right;
+        list-style-type: none;
+        margin-top: 25px;
+    }
+    
+    ul li {
+        display: inline-block;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+    }
+    
+    ul li a:hover {
+        background-color: #fff;
+        color: #000;
+    }
+    
+    ul li.active a {
+        background-color: #fff;
+        color: #000;
+    }
+    
+    .logo img {
+        float: left;
+        width: 80px;
+        height: auto;
+        margin-top: 10px;
+    }
+    
+    .main {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .title {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    
+    .title h1 {
+        color: #fff;
+        font-size: 70px;
+        text-align: center;
+    }
+    
+    .title img {
+        top: -40%;
+        left: 50%;
+        padding: 5;
+        position: absolute;
+        width: 100px;
+        height: auto;
+        transform: translate(-50%, -50%);
+        box-shadow: 1px 1px 1px 1px;
+        box-sizing: border-box;
+        color: #fff;
+    }
+    
+    .title table {
+        color: #fff;
+        top: 140%;
+        position: absolute;
+    }
+    
+    #bibleVerse {
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(29, 161, 242);
+        text-align: center;
+    }
+    
+    .verse {
+        top: 70%;
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+        position: initial;
+        background: rgba(21, 32, 43, 0.8);
+        box-shadow: 4px 4px 4px 4px;
+        position: relative;
+        border-radius: 50px;
+    }
+    
+    .verse ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .verse ul li {
+        float: left;
+        width: 25%;
+        height: 300px;
+        background: rgb(37, 51, 65);
+        margin: 100px 40px 10px 50px;
+        box-shadow: 4px 4px 4px 1px;
+        opacity: 0.8;
+        border-radius: 20px;
+    }
+    
+    .verse ul li:hover {
+        background: hsl(208, 22%, 34%);
+        color: #000;
+        opacity: 1;
+        border-radius: 65px;
+    }
+    
+    .verse a {
+        color: #fff;
+        line-height: 1.6;
+        background-color: rgba(2, 129, 255, 0);
+    }
+    
+    .verse ul li .bottom {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background: #1da1f2;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    
+    @media screen and (max-width:1250px) {
+        .verse ul li {
+            width: 40%;
+            margin-left: 40px;
+        }
+    }
+    
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+    .searchWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .searchBox {
+        top: 25px;
+        left: 25%;
+        width: 50%;
+        position: inherit;
+    }
+    
+    .searchBox input[type=text] {
+        width: 100%;
+        padding: 20px;
+        padding-right: 60px;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.5);
+        border: 1px solid #fff;
+        font-size: 18px;
+        color: #fff;
+        outline: none;
+    }
+    
+     ::-webkit-input-placeholder {
+        color: #fff;
+    }
+    
+     ::-moz-placeholder {
+        color: #fff;
+    }
+    
+     ::-ms-input-placehoder {
+        color: #fff;
+    }
+    
+    .worshipBox {
+        top: 70%;
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+        position: initial;
+        background: rgba(21, 32, 43, 0.8);
+        box-shadow: 4px 4px 4px 4px;
+        position: relative;
+        border-radius: 50px;
+    }
+    
+    .worshipBox ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .worshipBox ul li {
+        float: left;
+        width: 90%;
+        height: 300px;
+        background: hsl(0, 0%, 89%);
+        margin: 100px 40px 10px 50px;
+        box-shadow: 4px 4px 4px 1px;
+        opacity: 0.8;
+        border-radius: 20px;
+    }
+    
+    .worshipBox ul li:hover {
+        background: hsl(0, 0%, 89%);
+        opacity: 2;
+        box-shadow: 8px 8px 8px 8px;
+        color: #000000;
+    }
+    
+    .worshipBox a {
+        color: #000;
+        line-height: 1.6;
+        background-color: rgba(2, 129, 255, 0);
+    }
+    
+    .worshipBox ul li .bottom {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background: #1da1f2;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    
+    @media screen and (max-width:1250px) {
+        .worshipBox ul li {
+            width: 40%;
+            margin-left: 40px;
+        }
+    }
+    
+    .worshipBox img {
+        width: 185px;
+        height: 185px;
+    }
+    
+    audio {
+        width: 100%;
+    }
+    
+    .worshipBox th {
+        font-weight: lighter;
+        text-align: left;
+    }

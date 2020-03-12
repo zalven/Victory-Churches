@@ -1,0 +1,565 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/HomePage.css">
+    <script type="text/javascript" src="../scripts/BibleVerse.js"></script>
+
+    <title>BibleVerse</title>
+</head>
+
+<body bgcolor="#000">
+    <header>
+        <div class="main">
+            <ul>
+                <li class=""><a href="../html/HomePage.html">Home </a></li>
+                <li class="active"><a href="">Bible Verse </a></li>
+                <li class=""><a href="../html/WorhipSongPage.html">Worship Songs </a></li>
+                <li class=""><a href="../html/GalleryPage.html">Photos </a></li>
+                <li class=""><a href="#">Videos </a></li>
+
+                <li class="">
+                    <a href=""> </a>
+                </li>
+                <li class=""><a href="../html/BibleLogIn.html"> logOut</a></li>
+            </ul>
+        </div>
+
+
+
+        <div class="title">
+            <h1><br/>Bible Verses</h1>
+            <img src="../pictures/logo.png">
+        </div>
+
+        <!--
+        <div class="searchWrapper">
+            <div class="searchBox">
+                <input type="text" placeholder="Search bible verse">
+            </div>
+        </div>
+    -->
+
+
+        <div class="verse">
+            <div class="searchBox">
+                <input type="text" placeholder="Search bible verse" onkeyup="bibles()" id="input">
+            </div>
+            <ul>
+
+                <li>
+                    <div class='bottom' id='heading0'></div>
+                    <a id='message0'></a>
+                </li>
+
+
+                <li>
+                    <div class='bottom' id='heading1'></div>
+                    <a id='message1'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading2'></div>
+                    <a id='message2'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading3'></div>
+                    <a id='message3'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading4'></div>
+                    <a id='message4'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading5'></div>
+                    <a id='message5'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading6'></div>
+                    <a id='message6'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading7'></div>
+                    <a id='message7'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading8'></div>
+                    <a id='message8'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading9'></div>
+                    <a id='message9'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading10'></div>
+                    <a id='message10'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading11'></div>
+                    <a id='message11'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading12'></div>
+                    <a id='message12'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading13'></div>
+                    <a id='message13'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading14'></div>
+                    <a id='message14'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading15'></div>
+                    <a id='message15'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading16'></div>
+                    <a id='message16'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading17'></div>
+                    <a id='message17'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading18'></div>
+                    <a id='message18'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading19'></div>
+                    <a id='message19'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading20'></div>
+                    <a id='message20'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading21'></div>
+                    <a id='message21'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading22'></div>
+                    <a id='message22'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading23'></div>
+                    <a id='message23'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading24'></div>
+                    <a id='message24'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading25'></div>
+                    <a id='message25'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading26'></div>
+                    <a id='message26'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading27'></div>
+                    <a id='message27'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading28'></div>
+                    <a id='message28'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading29'></div>
+                    <a id='message29'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading30'></div>
+                    <a id='message30'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading31'></div>
+                    <a id='message31'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading32'></div>
+                    <a id='message32'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading33'></div>
+                    <a id='message33'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading34'></div>
+                    <a id='message34'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading35'></div>
+                    <a id='message35'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading36'></div>
+                    <a id='message36'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading37'></div>
+                    <a id='message37'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading38'></div>
+                    <a id='message38'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading39'></div>
+                    <a id='message39'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading40'></div>
+                    <a id='message40'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading41'></div>
+                    <a id='message41'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading42'></div>
+                    <a id='message42'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading43'></div>
+                    <a id='message43'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading44'></div>
+                    <a id='message44'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading45'></div>
+                    <a id='message45'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading46'></div>
+                    <a id='message46'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading47'></div>
+                    <a id='message47'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading48'></div>
+                    <a id='message48'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading49'></div>
+                    <a id='message49'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading50'></div>
+                    <a id='message50'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading51'></div>
+                    <a id='message51'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading52'></div>
+                    <a id='message52'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading53'></div>
+                    <a id='message53'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading54'></div>
+                    <a id='message54'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading55'></div>
+                    <a id='message55'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading56'></div>
+                    <a id='message56'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading57'></div>
+                    <a id='message57'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading58'></div>
+                    <a id='message58'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading59'></div>
+                    <a id='message59'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading60'></div>
+                    <a id='message60'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading61'></div>
+                    <a id='message61'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading62'></div>
+                    <a id='message62'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading63'></div>
+                    <a id='message63'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading64'></div>
+                    <a id='message64'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading65'></div>
+                    <a id='message65'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading66'></div>
+                    <a id='message66'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading67'></div>
+                    <a id='message67'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading68'></div>
+                    <a id='message68'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading69'></div>
+                    <a id='message69'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading70'></div>
+                    <a id='message70'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading71'></div>
+                    <a id='message71'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading72'></div>
+                    <a id='message72'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading73'></div>
+                    <a id='message73'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading74'></div>
+                    <a id='message74'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading75'></div>
+                    <a id='message75'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading76'></div>
+                    <a id='message76'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading77'></div>
+                    <a id='message77'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading78'></div>
+                    <a id='message78'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading79'></div>
+                    <a id='message79'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading80'></div>
+                    <a id='message80'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading81'></div>
+                    <a id='message81'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading82'></div>
+                    <a id='message82'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading83'></div>
+                    <a id='message83'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading84'></div>
+                    <a id='message84'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading85'></div>
+                    <a id='message85'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading86'></div>
+                    <a id='message86'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading87'></div>
+                    <a id='message87'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading88'></div>
+                    <a id='message88'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading89'></div>
+                    <a id='message89'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading90'></div>
+                    <a id='message90'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading91'></div>
+                    <a id='message91'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading92'></div>
+                    <a id='message92'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading93'></div>
+                    <a id='message93'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading94'></div>
+                    <a id='message94'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading95'></div>
+                    <a id='message95'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading96'></div>
+                    <a id='message96'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading97'></div>
+                    <a id='message97'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading98'></div>
+                    <a id='message98'></a>
+                </li>
+
+                <li>
+                    <div class='bottom' id='heading99'></div>
+                    <a id='message99'></a>
+                </li>
+
+
+            </ul>
+        </div>
+
+
+
+
+
+
+
+    </header>
+</body>
+
+</html>
